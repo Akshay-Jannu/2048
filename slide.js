@@ -111,6 +111,9 @@ function combineLeft(row){
 				}
 				array[i+1] = 0;//Fill the 2nd with 0
 				i++;//Skip adding 3 consecutive elements that are same
+			}else if(array[i-1] == 0){
+				array[i-1] = array[i];
+				array[i] = 0;
 			}
 		}
 	}
