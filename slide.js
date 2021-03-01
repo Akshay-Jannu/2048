@@ -3,7 +3,6 @@ function slideDown(){
 	var newArray = grid.map(function(arr) {
 		return arr.slice();
 	});
-	
 	for (var i=0; i<size; i++) { 
 		var coloumn = new Array(size);
 		for (var j = 0; j < size; j++) { 
